@@ -1,16 +1,16 @@
 class MvnArch < Formula
   desc "Wrapper CLI for mvn archetype:generate"
   homepage "https://github.com/sosuisen/mvn-arch"
-  version "0.2.2"
+  version "0.2.3"
 
   on_macos do
-    url "https://github.com/sosuisen/mvn-arch/releases/download/v0.2.2/mvn-arch-macos"
-    sha256 "5a59ead6e47fcfc522bb189e25863fc483713fd168f64f1ba4c8617139cb3cfc"
+    url "https://github.com/sosuisen/mvn-arch/releases/download/v0.2.3/mvn-arch-macos"
+    sha256 "f708be88083306a61029517f7e814bfed3760c94d2f5671f2149b5293b38a6ce"
   end
 
   on_linux do
-    url "https://github.com/sosuisen/mvn-arch/releases/download/v0.2.2/mvn-arch-linux"
-    sha256 "38fdc89c1e5a78640ccc1e0e6a4c232e8bd23bcbda7d9830ea874f0d64c06ae3"
+    url "https://github.com/sosuisen/mvn-arch/releases/download/v0.2.3/mvn-arch-linux"
+    sha256 "9222f3b8256ef8af0301ff60b70fb4277dd25720cb035398af11bce4eb362f47"
   end
 
   def install
